@@ -1,4 +1,30 @@
 .heroPage {
     height: 100vh;
     width: 100%;
+    display: flex;
+}
+
+.heroPage__image {
+    flex: 1;
+    height: 100%;
+    background-color: #F8F2F0;
+}
+
+.heroPage__content {
+    flex: 3;
+    height: 100%;
+    background-color: #F2E5E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.heroPage__content__title {
+    margin-left: 2rem;
+    font-size: 78px;
+}
+
+.heroPage__content__text {
+    margin-left: 2rem;
 }

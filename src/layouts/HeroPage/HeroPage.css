@@ -5,26 +5,52 @@
 }
 
 .heroPage__image {
-    flex: 1;
+    width: 30%;
     height: 100%;
     background-color: #F8F2F0;
+    object-fit: cover;
+}
+
+.heroPage__image__img {
+    height: 100%;
 }
 
 .heroPage__content {
-    flex: 3;
+    width: 70%;
     height: 100%;
     background-color: #F2E5E2;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
 }
 
 .heroPage__content__title {
-    margin-left: 2rem;
-    font-size: 78px;
+    font-size: var(--medium-text);
+    width: 50%;
 }
 
 .heroPage__content__text {
-    margin-left: 2rem;
+    width: 50%;
+    font-weight: 200;
+}
+
+@media (max-width: 500px) {
+    .heroPage__content {
+        width: 100%;
+    }
+
+    .heroPage__content__title {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .heroPage__content__text {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .heroPage__image {
+        display: none;
+    }
 }

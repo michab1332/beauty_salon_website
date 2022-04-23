@@ -8,8 +8,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(1rem);
     font-weight: 600;
+}
+
+.--blur {
+    backdrop-filter: blur(.5rem);
 }
 
 .menu__navWrapper {

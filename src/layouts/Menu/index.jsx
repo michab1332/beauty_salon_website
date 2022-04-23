@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 import './Menu.css'
 
 import Button from '../../components/button/Button'
@@ -5,8 +7,16 @@ import Button from '../../components/button/Button'
 import logo from "../../assets/svg/logo.svg"
 
 export default function Menu() {
+    const [isBlur, setIsBlur] = useState(false)
+    useEffect(() => {
+        window.addEventListener("scroll", handleSetBlur)
+        return window.removeEventListener("scroll", handleSetBlur)
+    })
+    const handleSetBlur = () => {
+        window.scrollY !== 0 ? setIsBlur(true) : setIsBlur(false)
+    }
     return (
-        <header className='menu'>
+        <header className={isBlur ? "menu --blur" : "menu"}>
             <img src={logo} alt="logo" className="menu__logo" />
             <div className="menu__navWrapper">
                 <nav className="menu__nav">

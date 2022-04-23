@@ -10,7 +10,7 @@ export default function Menu() {
     const [isBlur, setIsBlur] = useState(false)
     useEffect(() => {
         window.addEventListener("scroll", handleSetBlur)
-        return window.removeEventListener("scroll", handleSetBlur)
+        return () => window.removeEventListener("scroll", handleSetBlur)
     })
     const handleSetBlur = () => {
         window.scrollY !== 0 ? setIsBlur(true) : setIsBlur(false)

@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -10,6 +11,12 @@
     --medium-text: 68px;
     --normal-text: 23px;
     --small-text: 19px;
+
+    --main-color: #F2E5E2;
+    --main-lighter-color: #F8F2F0;
+    --white-color: #fff;
+    --black-collor: #000;
+
 }
 
 body {

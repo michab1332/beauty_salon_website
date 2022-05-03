@@ -12,6 +12,7 @@ export default function Main() {
             <HeroPage />
             <BreakSection text="WELCOME TO KAJA BONOWICZ HAIR & BEAUTY SALON" />
             <AboutSection />
+            <BreakSection text="OUR SALON IS LOCATED ON THE STREET ZABIENIEC15b/19" />
         </>
     )
 }

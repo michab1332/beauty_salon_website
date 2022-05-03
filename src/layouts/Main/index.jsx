@@ -4,6 +4,7 @@ import Menu from '../Menu'
 import HeroPage from '../HeroPage'
 import BreakSection from '../BreakSection'
 import AboutSection from '../AboutSection'
+import TeamSection from '../TeamSection'
 
 export default function Main() {
     return (
@@ -13,6 +14,7 @@ export default function Main() {
             <BreakSection text="WELCOME TO KAJA BONOWICZ HAIR & BEAUTY SALON" />
             <AboutSection />
             <BreakSection text="OUR SALON IS LOCATED ON THE STREET ZABIENIEC15b/19" />
+            <TeamSection />
         </>
     )
 }

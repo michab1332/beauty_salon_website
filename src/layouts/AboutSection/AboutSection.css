@@ -1,0 +1,31 @@
+.about {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: var(--main-lighter-color);
+}
+
+.about__text {
+    width: 65%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__text__title {
+    font-size: var(--medium-text);
+    font-weight: bold;
+    width: 50%;
+}
+
+.about__text__desc {
+    font-size: var(--normal-text);
+    width: 50%;
+}
+
+.about__imgs {
+    width: 35%;
+    background-color: red;
+}

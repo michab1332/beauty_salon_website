@@ -3,6 +3,7 @@ import React from 'react'
 import Menu from '../Menu'
 import HeroPage from '../HeroPage'
 import BreakSection from '../BreakSection'
+import AboutSection from '../AboutSection'
 
 export default function Main() {
     return (
@@ -10,6 +11,7 @@ export default function Main() {
             <Menu />
             <HeroPage />
             <BreakSection text="WELCOME TO KAJA BONOWICZ HAIR & BEAUTY SALON" />
+            <AboutSection />
         </>
     )
 }

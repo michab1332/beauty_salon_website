@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useLayoutEffect } from 'react'
 
 import './Menu.css'
 
@@ -8,7 +8,7 @@ import logo from "../../assets/svg/logo.svg"
 
 export default function Menu() {
     const [isBlur, setIsBlur] = useState(false)
-    useEffect(() => {
+    useLayoutEffect(() => {
         window.addEventListener("scroll", handleSetBlur)
         return () => window.removeEventListener("scroll", handleSetBlur)
     })

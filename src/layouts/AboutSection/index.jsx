@@ -1,5 +1,8 @@
 import "./AboutSection.css"
 
+import HairImg from "../../assets/images/hair.jpg"
+import NailsImg from "../../assets/images/nails.jpg"
+
 export default function AboutSection() {
     return (
         <div className="about">
@@ -12,8 +15,11 @@ export default function AboutSection() {
                 </p>
             </div>
             <div className="about__imgs">
-                <figure className="about__imgs__img">
-
+                <figure className="about__imgs__imgWrapper">
+                    <img src={HairImg} alt="Hair" className="about__imgs__imgWrapper__img" />
+                </figure>
+                <figure className="about__imgs__imgWrapper">
+                    <img src={HairImg} alt="Hair" className="about__imgs__imgWrapper__img" />
                 </figure>
             </div>
         </div>

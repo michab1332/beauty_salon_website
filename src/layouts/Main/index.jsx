@@ -5,6 +5,7 @@ import HeroPage from '../HeroPage'
 import BreakSection from '../BreakSection'
 import AboutSection from '../AboutSection'
 import TeamSection from '../TeamSection'
+import Gallery from '../Gallery'
 
 export default function Main() {
     return (
@@ -15,6 +16,7 @@ export default function Main() {
             <AboutSection />
             <BreakSection text="OUR SALON IS LOCATED ON THE STREET ZABIENIEC15b/19" />
             <TeamSection />
+            <Gallery />
         </>
     )
 }

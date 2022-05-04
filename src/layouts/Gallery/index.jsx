@@ -30,6 +30,21 @@ const IMG_DATA = [
         imgSrc: Photo,
         alt: "nails"
     },
+    {
+        id: 6,
+        imgSrc: Photo,
+        alt: "nails"
+    },
+    {
+        id: 7,
+        imgSrc: Photo,
+        alt: "nails"
+    },
+    {
+        id: 8,
+        imgSrc: Photo,
+        alt: "nails"
+    },
 ]
 
 const ImgItem = ({ imgSrc, alt }) => {
@@ -50,7 +65,7 @@ export default function Gallery() {
 
     const loadLessImgs = () => {
         let newTab = []
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < 6; i++) {
             newTab.push(IMG_DATA[i])
         }
         setImgs([...newTab])

@@ -6,6 +6,8 @@ import BreakSection from '../BreakSection'
 import AboutSection from '../AboutSection'
 import TeamSection from '../TeamSection'
 import Gallery from '../Gallery'
+import ContactSection from '../ContactSection'
+import Footer from '../Footer'
 
 export default function Main() {
     return (
@@ -17,6 +19,8 @@ export default function Main() {
             <BreakSection text="OUR SALON IS LOCATED ON THE STREET ZABIENIEC15b/19" />
             <TeamSection />
             <Gallery />
+            <ContactSection />
+            <Footer />
         </>
     )
 }

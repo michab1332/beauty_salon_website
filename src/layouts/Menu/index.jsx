@@ -38,7 +38,7 @@ export default function Menu() {
                         </li>
                     </ul>
                 </nav>
-                <Button>Book now</Button>
+                <Button text="Book now"></Button>
             </div>
         </header>
     )

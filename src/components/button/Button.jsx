@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Button({ children }) {
+export default function Button({ text, onClick }) {
     const [scale, setScale] = useState(1)
     const onMouseEnter = () => {
         setScale(1.05)
@@ -9,7 +9,7 @@ export default function Button({ children }) {
         setScale(1)
     }
     return (
-        <button onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={{
+        <button onClick={onClick} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={{
             width: 180,
             height: 40,
             backgroundColor: "#000",
@@ -20,7 +20,7 @@ export default function Button({ children }) {
             cursor: "pointer",
             transform: `scale(${scale})`
         }}>
-            {children}
+            {text}
         </button>
     )
 }

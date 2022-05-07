@@ -2,47 +2,60 @@ import { useState, useLayoutEffect } from 'react'
 
 import "./Gallery.css"
 
-import Photo from "../../assets/images/nails.jpg"
+import Nails1 from "../../assets/images/nails1.jpg"
+import Nails2 from "../../assets/images/nails2.jpg"
+import Nails3 from "../../assets/images/nails3.jpg"
+import Nails4 from "../../assets/images/nails4.jpg"
+import Nails5 from "../../assets/images/nails5.jpg"
+import Nails6 from "../../assets/images/nails6.jpg"
+import Nails7 from "../../assets/images/nails7.jpg"
+import Nails8 from "../../assets/images/nails8.jpg"
+import Nails9 from "../../assets/images/nails9.jpg"
 
 import Button from "../../components/button/Button"
 
 const IMG_DATA = [
     {
         id: 1,
-        imgSrc: Photo,
+        imgSrc: Nails1,
         alt: "nails"
     },
     {
         id: 2,
-        imgSrc: Photo,
+        imgSrc: Nails2,
         alt: "nails"
     },
     {
         id: 3,
-        imgSrc: Photo,
+        imgSrc: Nails3,
         alt: "nails"
     }, {
         id: 4,
-        imgSrc: Photo,
+        imgSrc: Nails4,
         alt: "nails"
     }, {
         id: 5,
-        imgSrc: Photo,
+        imgSrc: Nails5,
         alt: "nails"
     },
     {
         id: 6,
-        imgSrc: Photo,
+        imgSrc: Nails6,
         alt: "nails"
     },
     {
         id: 7,
-        imgSrc: Photo,
+        imgSrc: Nails7,
         alt: "nails"
     },
     {
         id: 8,
-        imgSrc: Photo,
+        imgSrc: Nails8,
+        alt: "nails"
+    },
+    {
+        id: 9,
+        imgSrc: Nails9,
         alt: "nails"
     },
 ]
@@ -80,7 +93,7 @@ export default function Gallery() {
     }
 
     return (
-        <div className="gallery">
+        <div className="gallery" id="gallery">
             <div className="gallery__text">
                 <p className="gallery__text__title">NASZA GALERIA</p>
             </div>

@@ -7,13 +7,13 @@ import SalonImg from "../../assets/images/salon.jpg"
 export default function AboutSection() {
     return (
         <>
-            <div className="about">
+            <div className="about" id="about">
                 <div className="about__text">
                     <p className="about__text__title">
-                        ABOUT US
+                        O NAS
                     </p>
                     <p className="about__text__desc">
-                        Feel as a super star everyday, with your own look and style. Feel as a super star everyday, with your own look.
+                        Dbamy o wasz wygląd od ponad 5 lat, jesteśmy zaufanym i bardzo doświadczonym zespołem.
                     </p>
                 </div>
                 <div className="about__imgs">
@@ -27,10 +27,10 @@ export default function AboutSection() {
             </div>
             <div className="salon">
                 <p className="salon__title">
-                    OUR SALON
+                    NASZ SALON
                 </p>
                 <p className="salon__desc">
-                    Feel as a super star everyday, with your own look and style. Feel as a super star everyday, with your own look.
+                    Nasz salon ulokowany jest w łatwo dostępnym miejscu, łatwo trafisz do nas komunikacją miejską lub zaparkujesz samochodem na pobliskim parkingu.
                 </p>
                 <figure className="salon__imgWrapper">
                     <img src={SalonImg} alt="Hair" className="salon__imgWrapper__img" />

@@ -14,9 +14,9 @@ export default function Main() {
         <>
             <Menu />
             <HeroPage />
-            <BreakSection text="WELCOME TO KAJA BONOWICZ HAIR & BEAUTY SALON" />
+            <BreakSection text='WITAMY W "KAJA BONOWICZ HAIR & BEAUTY SALON"' />
             <AboutSection />
-            <BreakSection text="OUR SALON IS LOCATED ON THE STREET ZABIENIEC15b/19" />
+            <BreakSection text="NASZ SALON ZNAJDUJĘ SIĘ W ALEKSANDROWIE KUJ." />
             <TeamSection />
             <Gallery />
             <ContactSection />

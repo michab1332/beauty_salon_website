@@ -28,7 +28,7 @@ export default function Menu() {
                             <a href="#about">About</a>
                         </li>
                         <li className="menu__nav__ul__li">
-                            <a href="#services">Services</a>
+                            <a href="#team">Team</a>
                         </li>
                         <li className="menu__nav__ul__li">
                             <a href="#gallery">Gallery</a>
